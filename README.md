@@ -1,5 +1,5 @@
 # Description
-Small application with gulp, webpack and angular(first version) - explorer of your Yandex.disk.
+A little application with gulp, webpack and angular(first version) - explorer of your Yandex.disk.
 Show all of your folders and files, but can't create/update/move/remove them :)
 # Getting Started
 ## Dependencies
@@ -10,7 +10,7 @@ Tools needed to run this app:
 * `npm install` to install dependencies
 
 ## Running the App
-NG6 uses Gulp to build and launch the development environment. After you have installed all dependencies, you may run the app. Running `npm start` will bundle the app with `webpack`, launch a development server, and watch all files. The port will be displayed in the terminal.
+Application uses Gulp to build and launch the development environment. After you have installed all dependencies, you may run the app. Running `npm start` will bundle the app with `webpack`, launch a development server, and watch all files. The port will be displayed in the terminal.
  
 ### Tasks
 Here's a list of available tasks:
