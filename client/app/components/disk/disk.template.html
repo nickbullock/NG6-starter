@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="page-header">
+    <h1>Ваш Яндекс.диск</h1>
+  </div>
+
+  <nav aria-label="navbar" ng-if="$ctrl.path!=='disk:/'">
+    <ul class="pager">
+      <li class="previous" ui-sref="disk({path: $ctrl.prevState})">
+        <a href="#">
+          <span aria-hidden="true">&larr;</span>
+          На уровень выше
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <ul class="list-group">
+    <a href="#" class="list-group-item" ng-repeat="item in $ctrl.disk" ng-click="$ctrl.open(item)">
+      <span class="glyphicon" ng-class="{'glyphicon-folder-close': item.type === 'dir', 'glyphicon-file': item.type === 'file'}"></span>
+      <span>{{item.name}}</span>
+      <span class="badge" ng-if="item.size">{{$ctrl.convertBytes(item.size)}}</span>
+    </a>
+  </ul>
+</div>

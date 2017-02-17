@@ -5,8 +5,16 @@
   "main": "index.js",
   "dependencies": {
     "angular": "^1.5.0",
+    "angular-cookies": "^1.6.2",
+    "angular-resource": "^1.6.2",
     "angular-ui-router": "^1.0.0-beta.1",
-    "normalize.css": "^3.0.3"
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
+    "bootstrap-sass-loader": "^1.0.10",
+    "file-loader": "^0.10.0",
+    "jquery": "^3.1.1",
+    "normalize.css": "^3.0.3",
+    "url-loader": "^0.5.7"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.0",
