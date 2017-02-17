@@ -1,5 +1,5 @@
 # Description
-A little application with gulp, webpack and angular(first version) - explorer of your Yandex.disk.
+A little application with gulp, webpack, bootstrap and angular(first version) - explorer of your Yandex.disk.
 Show all of your folders and files, but can't create/update/move/remove them :)
 # Getting Started
 ## Dependencies
