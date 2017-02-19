@@ -1,6 +1,8 @@
 # Description
 A little application with gulp, webpack, bootstrap and angular(first version) - explorer of your Yandex.disk.
 Show all of your folders and files, but can't create/update/move/remove them :)
+NOTE:
+I made this application as vacancy task, and decided to save it to show my angular1.x skills only.
 # Getting Started
 ## Dependencies
 Tools needed to run this app:
